@@ -6,13 +6,13 @@ icon: code-branch
 
 ### Comparing branches and files
 
-```shellscript
+```sh
 git diff main..new-feature
 ```
 
 Shows the diff between the `main` and the `feature` branches.
 
-```shellscript
+```sh
 git diff main..new-feature -- README.md
 ```
 
@@ -20,7 +20,7 @@ Shows the diff between the branches just for the `README.md` file.
 
 ### Working with branches
 
-```shellscript
+```sh
 git branch –n old_name new_name
 ```
 
@@ -30,12 +30,12 @@ Renames a branch.
 
 How to check stash content:
 
-```shellscript
+```sh
 git stash show
 ```
 
 Exact diff of the stash:
 
-```shellscript
+```sh
 git stash show -p
 ```

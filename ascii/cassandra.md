@@ -6,7 +6,7 @@ icon: database
 
 ### Connecting to the cluster with `cqlsh`:
 
-```shellscript
+```sh
 cqlsh --username="user" --password="pass" cassandra.example.com
 ```
 

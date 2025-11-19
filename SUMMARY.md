@@ -6,4 +6,4 @@
   * [Kubernetes](ascii/kubernetes.md)
   * [Cassandra](ascii/cassandra.md)
   * [Wiremock](ascii/wiremock.md)
-  * [\`jq\` & \`yq\`](ascii/jq-and-yq.md)
+  * [jq & yq](ascii/jq-and-yq.md)

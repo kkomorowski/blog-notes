@@ -1,10 +1,24 @@
 ---
 description: '`jq` and `yq` are the handy tools to parse and manipulate JSON and YAML data'
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# \`jq\` & \`yq\`
+# jq & yq
 
-### An example of \`yq\` to extract the names of the services and corresponding addresses from docker-compose file
+### An example of yq to extract the names of the services and corresponding addresses from docker-compose file
 
 ```
 yq eval '(.services | keys[]) as $srv | 

@@ -14,3 +14,9 @@ yq eval '(.services | keys[]) as $srv |
    sed 's/${CI_SUBNET_ID:-0}/0/' |  
    sort -k2
 ```
+
+### Converting YAML to JSON
+
+```sh
+yq eval -o=json input.yaml > output.json
+```

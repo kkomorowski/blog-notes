@@ -9,7 +9,7 @@ icon: brackets-curly
 
 ```sh
 yq eval '(.services | keys[]) as $srv | 
-         {$srv: .services[$srv].networks.m2m_network.ipv4_address}' \
+         {$srv: .services[$srv].networks.my_network.ipv4_address}' \
    docker-compose-perf.yaml |  
    sed 's/${CI_SUBNET_ID:-0}/0/' |  
    sort -k2

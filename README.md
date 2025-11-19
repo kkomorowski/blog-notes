@@ -1,2 +1,7 @@
-# blog-notes
-Private repository for blog notes ideas.
+---
+icon: gear-complex
+---
+
+# Tools
+
+Some tips and tricks for our favourite tooling

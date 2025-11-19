@@ -1,5 +1,6 @@
 ---
 description: '`jq` and `yq` are the handy tools to parse and manipulate JSON and YAML data'
+icon: brackets-curly
 layout:
   width: default
   title:
@@ -20,7 +21,7 @@ layout:
 
 ### An example of yq to extract the names of the services and corresponding addresses from docker-compose file
 
-```
+```shellscript
 yq eval '(.services | keys[]) as $srv | 
          {$srv: .services[$srv].networks.m2m_network.ipv4_address}' \
    docker-compose-perf.yaml |  

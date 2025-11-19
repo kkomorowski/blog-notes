@@ -1,10 +1,14 @@
+---
+icon: server
+---
+
 # Kubernetes
 
 ### Force kill K8S POD <a href="#force_kill_k8s_pod" id="force_kill_k8s_pod"></a>
 
 Whenever you need to kill a POD that does not respond to standard delete command you could try to force kill the PODs:
 
-```
+```shellscript
 kubectl -n <namespace> delete pod <pod_name> --force --grace-period=0
 ```
 
@@ -16,13 +20,13 @@ Source: [https://stackoverflow.com/questions/54478616/how-to-delete-a-pod-in-unk
 
 You need to open a terminal in your POD:
 
-```
+```shellscript
 kubectl -n <namespace> exec -it <pod_name> /bin/bash
 ```
 
 and run the command:
 
-```
+```shellscript
 getent hosts <domain>
 ```
 

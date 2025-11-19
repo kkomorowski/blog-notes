@@ -1,8 +1,12 @@
+---
+icon: database
+---
+
 # Cassandra
 
 ### Connecting to the cluster with `cqlsh`:
 
-```
+```shellscript
 cqlsh --username="user" --password="pass" cassandra.example.com
 ```
 
@@ -10,13 +14,13 @@ cqlsh --username="user" --password="pass" cassandra.example.com
 
 ### Checking available keyspaces (like `SHOW databases` in SQL):
 
-```
+```sql
 SELECT keyspace_name FROM system_schema.keyspaces;
 ```
 
 What tables are defined in the keyspace?
 
-```
+```sql
 SELECT table_name
   FROM system_schema.tables
  WHERE keyspace_name = 'your_keyspace';
@@ -24,7 +28,7 @@ SELECT table_name
 
 What are the columns in the table?
 
-```
+```sql
 SELECT column_name, kind, type
   FROM system_schema.columns
  WHERE keyspace_name = 'your_keyspace'

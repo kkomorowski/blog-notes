@@ -1,20 +1,6 @@
 ---
 description: '`jq` and `yq` are the handy tools to parse and manipulate JSON and YAML data'
 icon: brackets-curly
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # jq & yq

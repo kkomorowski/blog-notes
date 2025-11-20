@@ -3,6 +3,7 @@
 * [Tools](README.md)
   * [Wiremock](tools/wiremock.md)
   * [Git](tools/git-commands.md)
+  * [Docker](tools/docker.md)
   * [Kubernetes](tools/kubernetes.md)
   * [Cassandra](tools/cassandra.md)
   * [jq & yq](tools/jq-and-yq.md)

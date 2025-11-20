@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tools](tools.md)
+* [Tools](README.md)
   * [Wiremock](tools/wiremock.md)
   * [Git](tools/git-commands.md)
   * [Kubernetes](tools/kubernetes.md)
@@ -9,3 +9,4 @@
   * [AsciiDoc](tools/asciidoc.md)
   * [Midnight Commander](tools/midnight-commander.md)
   * [ZSH](tools/zsh.md)
+  * [Java Virtual Machine](tools/java-virtual-machine.md)

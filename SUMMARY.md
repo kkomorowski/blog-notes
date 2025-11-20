@@ -8,3 +8,4 @@
   * [jq & yq](tools/jq-and-yq.md)
   * [AsciiDoc](tools/asciidoc.md)
   * [Midnight Commander](tools/midnight-commander.md)
+  * [ZSH](tools/zsh.md)

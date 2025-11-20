@@ -15,3 +15,4 @@ Some tips and tricks for our favourite tooling
 * [Midnight Commander](tools/midnight-commander.md)
 * [ZSH](tools/zsh.md)
 * [Java Virtual Machine](tools/java-virtual-machine.md)
+* [Scala](tools/scala.md)

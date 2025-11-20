@@ -5,7 +5,7 @@ icon: font-case
 
 # AsciiDoc
 
-### Table without borders
+## Table without borders
 
 ```adoc
 [frame=none,grid=none]
@@ -16,9 +16,9 @@ icon: font-case
 |===
 ```
 
-### Table content formatting
+## Table content formatting
 
-#### Center Text in a Single Cell
+### Center Text in a Single Cell
 
 ```adoc
 |===
@@ -28,7 +28,7 @@ icon: font-case
 |===
 ```
 
-#### Formatting for each column
+### Formatting for each column
 
 ```adoc
 [cols="^,<,>"]
@@ -38,9 +38,9 @@ icon: font-case
 |===
 ```
 
-#### Center and span two columns
+### Center and span two columns
 
-```
+```adoc
 |===
 2+^| Centered and spans two columns
 |===

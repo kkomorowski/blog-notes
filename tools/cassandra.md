@@ -4,15 +4,15 @@ icon: database
 
 # Cassandra
 
-### Connecting to the cluster with `cqlsh`:
+## Connecting to the cluster with `cqlsh`:
 
 ```sh
 cqlsh --username="user" --password="pass" cassandra.example.com
 ```
 
-<table data-header-hidden><thead><tr><th width="145"></th><th></th></tr></thead><tbody><tr><td>Warning</td><td>Following notes are valid for <code>cqlsh 6.0.0 | Cassandra 3.11.8</code></td></tr></tbody></table>
+**Info:** Following notes are valid for cqlsh 6.0.0 and Cassandra 3.11.8
 
-### Checking available keyspaces (like `SHOW databases` in SQL):
+## Checking available keyspaces (like `SHOW databases` in SQL):
 
 ```sql
 SELECT keyspace_name FROM system_schema.keyspaces;

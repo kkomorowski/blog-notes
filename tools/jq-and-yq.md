@@ -5,7 +5,7 @@ icon: brackets-curly
 
 # jq & yq
 
-### An example of yq to extract the names of the services and corresponding addresses from docker-compose file
+## An example of yq to extract the names of the services and corresponding addresses from docker-compose file
 
 ```sh
 yq eval '(.services | keys[]) as $srv | 
@@ -15,7 +15,7 @@ yq eval '(.services | keys[]) as $srv |
    sort -k2
 ```
 
-### Converting YAML to JSON
+## Converting YAML to JSON
 
 ```sh
 yq eval -o=json input.yaml > output.json

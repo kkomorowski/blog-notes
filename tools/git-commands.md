@@ -4,7 +4,7 @@ icon: code-branch
 
 # Git
 
-### Comparing branches and files
+## Comparing branches and files
 
 ```sh
 git diff main..new-feature
@@ -18,7 +18,7 @@ git diff main..new-feature -- README.md
 
 Shows the diff between the branches just for the `README.md` file.
 
-### Working with branches
+## Working with branches
 
 ```sh
 git branch –n old_name new_name
@@ -26,7 +26,7 @@ git branch –n old_name new_name
 
 Renames a branch.
 
-### Stashes
+## Stashes
 
 How to check stash content:
 

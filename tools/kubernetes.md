@@ -35,3 +35,10 @@ getent hosts <domain>
 This should return an IP address if the domain was correctly resolved. If not 
 this command returns nothing.
 
+## Setting the default namespace
+
+```bash
+kubectl config set-context <cluster> --namespace <namespace>
+```
+
+

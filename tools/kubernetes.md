@@ -41,4 +41,9 @@ this command returns nothing.
 kubectl config set-context <cluster> --namespace <namespace>
 ```
 
+## Logs from multiple PODs
+
+```bash
+kubectl logs -l app.kubernetes.io/name="<app_name>" --all-containers --all-pods
+```
 

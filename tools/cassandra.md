@@ -35,3 +35,18 @@ SELECT column_name, kind, type
    AND table_name = 'your_table';
 ```
 
+## `cqlsh`
+
+### Turning off paging output
+
+```
+PAGING off
+```
+
+### Directing output to the file
+
+```
+CAPTURE 'your_file.txt'
+```
+
+

@@ -45,3 +45,12 @@ icon: font-case
 2+^| Centered and spans two columns
 |===
 ```
+
+### Code samples
+
+```adoc
+[source,bash]
+----
+asciidoctor tools/pass.adoc
+----
+```

@@ -16,3 +16,4 @@ Some tips and tricks for our favourite tooling
 * [ZSH](tools/zsh.md)
 * [Java Virtual Machine](tools/java-virtual-machine.md)
 * [Scala](tools/scala.md)
+* [Pass](tools/pass.md)

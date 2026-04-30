@@ -12,3 +12,4 @@
   * [ZSH](tools/zsh.md)
   * [Java Virtual Machine](tools/java-virtual-machine.md)
   * [Scala](tools/scala.md)
+  * [Pass](tools/pass.md)

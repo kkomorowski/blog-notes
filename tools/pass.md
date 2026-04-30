@@ -1,40 +1,41 @@
-= `pass` - the standard unix password manager
+---
+icon: lock
+---
 
-== General notes
+# `pass` - the standard unix password manager
+
+## General notes
 
 `pass` is a unix based password manager that securely stores the passwords
 using the `gpg` encrypted files under a `git` repository.
 
-== Example commands
+## Example commands
 
-=== Generating the password
+### Generating the password
 
-[source,bash]
-----
+```
 pass generate -c pass_name 12
                ↑            ↑
     Copy to clipboard       |
                       Password length
-----
+```
 
 The password will be saved in the store, you can retrieve it using this
 command:
 
-[source,bash]
-----
+```bash
 pass pass_name
-----
+```
 
-== Configuration environment variables
+### Configuration environment variables
 
 Add the configuration environment variables to your `.bashrc` or `.zshrc`:
 
-=== Default password length for `generate` command
+### Default password length for `generate` command
 
 Default password length is 32. If you wish to configure it use following
 variable:
 
-[source,bash]
-----
+```bash
 export PASSWORD_STORE_GENERATED_LENGTH=12
-----
+```

@@ -47,3 +47,12 @@ kubectl config set-context <cluster> --namespace <namespace>
 kubectl logs -l app.kubernetes.io/name="<app_name>" --all-containers --all-pods
 ```
 
+## Forwarding ports from k8s cluster
+
+Example:
+
+```bash
+kubectl port-forward services/amq 61616:61616 8161:8161
+```
+
+You can forward multiple ports, format is `<local_port>:<service_port>`.
